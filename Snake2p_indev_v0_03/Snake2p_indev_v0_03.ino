@@ -2,6 +2,38 @@
 #include <TVout.h>
 #include <video_gen.h>
 
+/////////////////////////////////////////////////////////////////////////////////
+//                                                                             //
+//  Author: Simen Fjellstad @ Frozen Apps                                      //
+//  Email: zaimennor@gmail.com                                                 //
+//  Date: 31. May 2014                                                         //
+//  Version number: in-dev v0.03                                               //
+//                                                                             //
+//  This document is licensed under the Creative commons copyrights.           //
+//  License document found here: http://creativecommons.org/licenses/by/4.0/   //
+//                                                                             //
+//  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY     //
+//  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE        //
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A                 //
+//  PARTICULAR PURPOSE.                                                        //
+//                                                                             //
+//  Summary:                                                                   //
+//  This document is the basefile for a snakegame especially made for the      //
+//  Arduino UNO. This program gets two player input from two 3bit inputs.      //
+//  Whereas pin 2-4 and 5-7/8 is used. This program is dependent on the TVOut  //
+//  Library.                                                                   //
+//                                                                             //
+//  Versions:                                                                  //
+//  V0.01: Only singleplayer is added. As multiplayersupport will be added     //
+//         in near future                                                      //
+//                                                                             //
+//  v0.02: 2nd player added. Mostly copypasting from 1 player code. Scheduled  //
+//         to add collider listeners for each snake.(hitting the other player) //
+//         I also need to add a point/growth system (random spawning target).  //
+//                                                                             //
+//  v0.03: Added a bunch of comments                                           //
+/////////////////////////////////////////////////////////////////////////////////
+
 TVout TV;
 
 //Initialize constants
